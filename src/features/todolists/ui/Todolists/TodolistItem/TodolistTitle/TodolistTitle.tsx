@@ -17,6 +17,7 @@ export const TodolistTitle = ({ todolist }: Props) => {
 
   const deleteTodolist = () => {
     removeTodolist(id)
+  }
 
     const changeTodolistTitle = (title: string) => {
       updateTodolistTitle({ id, title })
@@ -33,3 +34,4 @@ export const TodolistTitle = ({ todolist }: Props) => {
       </div>
     )
   }
+
