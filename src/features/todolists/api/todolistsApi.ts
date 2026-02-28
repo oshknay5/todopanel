@@ -1,5 +1,4 @@
 import { baseApi } from "@/app/baseApi"
-import { instance } from "@/common/instance"
 import type { BaseResponse } from "@/common/types"
 import type { DomainTodolist } from "@/features/todolists/lib/types"
 import type { Todolist } from "./todolistsApi.types"
@@ -62,4 +61,3 @@ export const {
   useRemoveTodolistMutation,
   useUpdateTodolistTitleMutation,
 } = todolistsApi
-
